@@ -15,5 +15,9 @@ elif((X < 0) and (Y < 0)):
     print("Punto en el tercer cuadrante");
 elif((X > 0) and (Y < 0)):
     print("Punto en el cuarto cuadrante");
+elif((X == 0) and (Y < 0) or (Y > 0)):
+    print("Punto en el eje Y")
+elif((X < 0) or (X > 0) and (Y == 0)):
+    print("Punto en el eje X")
 else:
     print("Punto de origen"); 
